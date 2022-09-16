@@ -22,7 +22,7 @@ const energy = (massFloat * SPEED_LIGHT) ** 2
 
 // Prints out mass with energy
 if (!isNaN(energy)) {
-  console.log(`${mass} kg of mass produce ${energy}J of energy`)
+  console.log(`${mass} kg of mass produce ${energy.toString()}J of energy`)
 } else {
   console.log('Invalid Input')
 }
